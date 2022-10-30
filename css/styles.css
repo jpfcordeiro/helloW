@@ -7705,8 +7705,7 @@ textarea.form-control-lg {
 }
 
 .text-secondary {
-  --bs-text-opacity: 1;
-  color: rgba(var(--bs-secondary-rgb), var(--bs-text-opacity)) !important;
+  color: #0d2c54 !important;
 }
 
 .text-success {
@@ -11301,9 +11300,9 @@ html {
   width: 100%;
   max-width: 7rem;
   height: 0.25rem;
-  background-color: #2c3e50;
+  background-color: #0d2c54;
   border-radius: 1rem;
-  border-color: #2c3e50;
+  border-color: #0d2c54;
 }
 .divider-custom .divider-custom-line:first-child {
   margin-right: 1rem;
