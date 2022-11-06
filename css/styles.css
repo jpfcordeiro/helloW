@@ -112,7 +112,6 @@ html {
   color: #fff;
 }
 
-
 .btn-social {
   border-radius: 100%;
   display: inline-flex;
@@ -143,7 +142,6 @@ html {
 #mainNav .navbar-nav li.nav-item a.nav-link.active {
   color: #0d2c54;
 }
-
 
 .footer {
   padding-top: 5rem;
