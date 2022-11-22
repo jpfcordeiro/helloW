@@ -93,7 +93,7 @@ html {
   height: 0.25rem;
   background-color: #0d2c54;
   border-radius: 1rem;
-  border-color: #0d2c54;
+  border-color: #f26430;
 }
 .divider-custom .divider-custom-line:first-child {
   margin-right: 1rem;
@@ -109,7 +109,7 @@ html {
   background-color: #fff;
 }
 .divider-custom.divider-light .divider-custom-icon {
-  color: #fff;
+  color: #f26430;
 }
 
 .btn-social {
@@ -151,14 +151,18 @@ html {
 }
 
 .bg-primary{
-  background-color: #fafafa !important;
+  background-color: #ebebeb !important;
 }
 
 .bg-secondary{
-  background-color: #f26430 !important;
+  background-color: #0d2c54 !important;
 }
 
 .text-secondary{
+  color: #f26430 !important;
+}
+
+.text-terciary{
   color: #0d2c54 !important;
 }
 
@@ -185,4 +189,23 @@ html {
   position: relative !important;
   left: auto !important;
   right: auto !important;
+}
+
+.title{
+  color: #0d2c54;
+}
+
+.card{
+  background-color: #f2f2f2;
+  border: 1px solid #2c3e50;
+}
+
+.backimage{
+  width: 100%;
+  position: absolute;
+  z-index: -1;
+  left: 0;
+  object-fit:fill;
+  filter: blur(5px) contrast(1.4);
+  opacity: 0.7;
 }
